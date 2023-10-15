@@ -41,6 +41,7 @@ export interface AwnIcons {
 
 export interface AwnOptions {
     position?: AwnPosition;
+    icons?: AwnIcons;
     maxNotifications?: number;
     animationDuration?: number;
     formatError?: (error: Error) => string | Error;
